@@ -1,0 +1,78 @@
+/* Container styling */
+#P {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 226, 36);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#A {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  height: 582px;
+  width: 384px;
+  border-radius: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  align-items: start;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 1);
+}
+
+#t-img {
+  height: 40%;
+  width: 100%;
+  background-color: gray;
+  margin-top: 24px;
+  border-radius: 12px;
+}
+
+#title {
+  margin-top: 24px;
+  background-color: rgb(255, 226, 36);
+  padding: 12px;
+  border-radius: 8px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+#date {
+  margin-top: 12px;
+  font-size: small;
+}
+
+#Heading {
+  margin-top: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#description {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Profile section styling */
+#profile {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  margin-top: 48px;
+  gap: 12px; /* Adds space between profile image and name */
+}
+
+#profileimg {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+#profileName {
+  font-size: 18px;
+  font-weight: 600;
+}
