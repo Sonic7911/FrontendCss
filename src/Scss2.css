@@ -1,0 +1,159 @@
+#Screen
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: monospace;
+}
+
+#Container
+{
+    display: flex;
+    width: 640px;
+}
+
+#leftComponent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    background: linear-gradient(to bottom, #6340FA, #322CE9);
+    border-radius: 24px;
+}
+
+#result
+{
+    margin-top: 24px;
+    color: rgb(215, 215, 215);
+    font-size : 1.5em;
+    margin-bottom: 24px;
+
+}
+
+
+#Score
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40%;
+    background: linear-gradient(to bottom, #5632f7, #322CE9);
+    border-radius: 50%;
+}
+
+#Number
+{
+    color: white;
+    font-size: 4.5em;
+    margin-bottom: 4px;
+}
+
+#Total
+{
+    color: #887ac4;
+    font-size: medium;
+    font-weight: 600;
+}
+
+#Great
+{
+    color: white;
+    font-size: 2em;
+    margin-top: 24px;
+}
+
+#scoreDescription
+{
+    text-align: center;
+    padding: 16px;
+    width: 60%;
+    color : rgb(199, 198, 243);
+    font-size: medium;
+}
+
+
+#rightComponent
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    width: 50%;
+    height: 400px;
+    background-color: white; 
+    border-radius: 16px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#Summary
+{
+    margin-top: 24px;
+    font-size: 1.5em;
+    color: rgb(84, 84, 84);
+
+    margin-bottom: 24px;
+}
+
+#Reaction1
+{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: larger;
+    color: rgb(185, 45, 45);
+    width: 80%;
+    background-color: #ecd8e6;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+#Reaction2
+{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: larger;
+    color: rgb(212, 163, 0);
+    width: 80%;
+    background-color: #fcfed7;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+#Reaction3
+{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: larger;
+    color: rgb(42, 88, 255);
+    width: 80%;
+    background-color: #eff0ff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+
+
+
+button
+{
+    margin-top: 72px;
+    width: 90%;
+    height: 50px;
+   background-color: rgb(21, 48, 113);
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    
+    
+}
